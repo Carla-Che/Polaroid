@@ -1,0 +1,307 @@
+/* latin */
+@font-face {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cedarville Cursive'), local('Cedarville-Cursive'), url(https://fonts.gstatic.com/s/cedarvillecursive/v11/yYL00g_a2veiudhUmxjo5VKkoqA-B_nuIrpw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/*--------body-----------*/
+
+body{
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.background{
+    height: 110%;
+    width: 100%;   
+    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+
+}
+
+.gallery{
+position: absolute;
+top: 65px;
+margin-left: 200px;
+
+}
+
+p  {
+    font-size: 16px;
+    font-family: "Cedarville Cursive";
+    text-align: center;
+    position: relative;
+  
+    }
+ /*-----------------------  BOXS----------------------*/
+
+
+.box-1 { 
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    box-shadow: grey;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    position: absolute;
+    right: -250;
+    transition-property:all ;
+    transition-duration: .3s;
+    transform: rotate(-10deg);
+   
+}
+
+.box-1:hover{
+    display: block;
+    transform: scale(1.1)
+
+    }
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom:  50px solid white;
+    position: absolute;
+    left: 250;
+    transition-property: all;
+    transition-duration: .3s;
+    transform: rotate(10deg);
+    z-index: 20;
+}
+
+.box-2:hover{
+    display: block;
+    transform: scale(0.8)
+  
+}
+
+
+.box-3 { 
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    position: absolute;
+    left: 500;
+    transition-property: all;
+    transition-duration: .3s;
+    transform: rotate(-15deg);
+    }
+
+.box-3:hover  {
+    display: block;
+    transform: rotate(2deg);
+}    
+
+  
+.box-4{
+    
+    width: 240px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom:  50px solid white ;
+    position: absolute;
+    top: 280px;
+    transition-property: all;
+    transition-duration: .3s;
+    transform:rotate(5deg)
+}
+
+.box-4:hover{
+    display: block;
+    transform: scale(0.8);
+  
+}
+
+ .box-5 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border:10px solid white;
+    border-bottom:  50px solid white;
+    position: absolute;
+    top: 300;
+    left: 300;
+    transition-property: all;
+    transition-duration: .3s;
+    transform:rotate(7deg);
+   
+    
+}
+
+.box-5:hover{
+    display: block;
+    transform: scale(0.8 );
+}
+
+
+.box-6{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom:  50px solid white;
+    position: absolute;
+    top: 300;
+    left: 550;
+    transition-property: all;
+    transition-duration: .3s;
+    transform:rotate(-10deg);
+    z-index: 10;
+}
+
+.box-6:hover{
+    display: block;
+    transform: rotate(5deg);
+}
+
+
+.box-7{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom:  50px solid white; position: absolute;
+    top: 580;
+    transition-property: all;
+    transition-duration: .3s;
+    transform: rotate(1deg);
+
+}   
+
+.box-7:hover{
+
+    display: block;
+    transform: scale(0.8);
+}
+
+
+.box-8{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom:  50px solid white;
+    position: absolute;
+    top: 580;
+    left: 230;
+    transition-property: all;
+    transition-duration: .3s;
+    transform: rotate(-10deg);
+}
+.box-8:hover{
+    display: block;
+    transform: scale(0.8)
+}
+
+ .box-9{
+
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    position: absolute;
+    top: 580;
+    left: 470;
+    transition-property: all;
+    transition-duration: .3s;
+    
+ }
+
+ .box-9:hover{
+    display: block;
+    transform: scale(0.8);
+}
+ 
+ .box-10 {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 10px solid white;
+    border-bottom:  50px solid white;
+    box-shadow: gray;
+    position: absolute;
+    top: 580;
+    left: 700;
+    transition-property: all;
+    transition-duration: .3s;
+    transform: rotate(-3deg);
+}
+
+.box-10:hover{
+    display: block;
+    transform: scale(0.8);
+}
+
+/*
+.summer-2014 .early-morning, .brooklyn, .seath-valley,  .verbier, .temporary-home, .torino-2013, .miss-you, .lost, .why-now {
+    width: 200px;
+    display: flex;
+    position: absolute;
+    
+}*/
+.summer-2014 {
+  
+    width: 200px;
+    
+   
+}
+
+.seath-valley{
+    width: 200px;
+  
+}
+
+.early-morning{
+    width: 200px;
+        
+}
+
+
+.lost{
+    height:200px;
+    width: 240px;
+    
+}
+
+.brooklyn{
+    width: 200px;
+    
+}
+
+
+.why-now {
+    width: 200px;
+    
+    
+}
+.verbier{
+    height:200px;
+    width: 200px;
+    
+
+}
+.temporary-home{
+    height:200px;
+    width: 200px;
+   
+
+}
+.torino-2013{
+    height:200px;
+    width: 200px;
+    
+}
+.miss-you{
+    height:200px;
+    width: 200px;;
+   
+}
+
